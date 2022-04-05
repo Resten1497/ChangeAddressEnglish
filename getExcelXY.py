@@ -85,5 +85,19 @@ def main():
         time.sleep(0.3)
 
 
+    # load_wb = load_workbook("data.xlsx", data_only=True)
+    # load_ws = load_wb['Sheet1']
+    # for i in load_ws['A']:
+    #     enAddressResult = requestAPI(setEnAddress(i.value))
+    #     if enAddressResult['results']['common']['totalCount'] == '1':
+    #         positionResult = requestAPI(setPositionAddress(enAddressResult))
+    #         if positionResult is not None:
+    #             # print(positionResult['results']['juso'][0]['entX'], positionResult['results']['juso'][0]['entY'])
+    #             project_array(positionResult['results']['juso'][0]['entX'], positionResult['results']['juso'][0]['entY'])
+    #     else:
+    #         print("None")
+    #     time.sleep(0.3)
+
+
 if __name__ == '__main__':
     main()
